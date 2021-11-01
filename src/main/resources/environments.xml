@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environments>
+    <environment name="yandex">
+        <mainUrl>
+            <url>https://yandex.ru</url>
+        </mainUrl>
+        <applications>
+            <application alias="Яндекс.Карты">/maps</application>
+        </applications>
+        <users>
+            <user alias="SADMIN">
+                <name>SADMIN</name>
+                <password>SADMIN</password>
+            </user>
+        </users>
+    </environment>
+</environments>
