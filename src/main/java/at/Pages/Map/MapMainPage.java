@@ -1,12 +1,9 @@
 package at.Pages.Map;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverRunner.url;
 
 public class MapMainPage{
     public void clickBuildRoute(){
@@ -19,7 +16,7 @@ public class MapMainPage{
     }
 
     public void setBeginRoad(String value) {
-        $(by("placeholder","Откуда")).setValue(value).pressEnter();
+        $(byAttribute("placeholder","Откуда")).setValue(value).pressEnter();
     }
     public void setEndRoad(String value) {
         $(byAttribute("placeholder","Куда")).setValue(value).pressEnter();

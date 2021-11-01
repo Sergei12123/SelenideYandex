@@ -4,9 +4,7 @@ package at.Steps;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 import lombok.extern.log4j.Log4j2;
-import at.Context;
 import at.helpers.HookHelper;
 
 /**

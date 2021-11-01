@@ -1,12 +1,7 @@
 package at.helpers;
 
-
-import org.junit.Assert;
-
 import java.io.File;
-
 import static com.codeborne.selenide.Selenide.closeWebDriver;
-import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
 
 public class HookHelper {
     private static Environment environment;
